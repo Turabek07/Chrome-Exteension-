@@ -8,7 +8,7 @@ const leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"))
 const tabBtn = document.getElementById("tab-btn")
 
 if (leadsFromLocalStorage) {
-    myLeads = leadsFromLocalStorage;
+    myLeads = leadsFromLocalStorage
     render(myLeads)
 }
 
@@ -53,4 +53,4 @@ inputBtn.addEventListener("click", function () {
     console.log(localStorage.getItem("myLeads"))
 })
 
-
+                                     // COMPLETED// 
